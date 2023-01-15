@@ -17,7 +17,7 @@
 def insertion_sort(num_array):
     for i in range(len(num_array)):
         j = i
-        # swap the indexs of 2nd condition of this while loop to get descending sorted array
+        # swap the indexes of 2nd condition of this while loop to get descending sorted array
         # i.e. num_array[j] > num_array[j-1]
         while j > 0 and num_array[j-1] > num_array[j]:
             num_array[j], num_array[j-1] = num_array[j-1], num_array[j]
